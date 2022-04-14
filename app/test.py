@@ -8,5 +8,3 @@ def helloWord():
     :param: None
     """
     print("Hello World")  # this comment has been shortend
-
-    
