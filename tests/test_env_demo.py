@@ -1,4 +1,4 @@
-from env_demo import __version__
+from data_demo import __version__
 
 
 def test_version():
