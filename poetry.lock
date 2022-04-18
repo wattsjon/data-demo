@@ -666,6 +666,14 @@ snowballstemmer = "*"
 toml = ["toml"]
 
 [[package]]
+name = "pyenv"
+version = "0.0.1"
+description = "pyenv project placeholder package"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pyflakes"
 version = "2.4.0"
 description = "passive checker of Python programs"
@@ -995,7 +1003,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "be02f36b93e4885d2f75c4894e6f97d0d6755cf825b6c4f9cf7fe2ba3650c96e"
+content-hash = "6bd272701dd58c7b177765984ca33dc3d518eccf802c908fd4ca06cde543192f"
 
 [metadata.files]
 agate = [
@@ -1466,6 +1474,9 @@ pycparser = [
 pydocstyle = [
     {file = "pydocstyle-6.1.1-py3-none-any.whl", hash = "sha256:6987826d6775056839940041beef5c08cc7e3d71d63149b48e36727f70144dc4"},
     {file = "pydocstyle-6.1.1.tar.gz", hash = "sha256:1d41b7c459ba0ee6c345f2eb9ae827cab14a7533a88c5c6f7e94923f72df92dc"},
+]
+pyenv = [
+    {file = "pyenv-0.0.1.tar.gz", hash = "sha256:4c29f881b26772ada6bc5a945f1f71f7cc33c0420bb7eb1e144d8b1f2134fedb"},
 ]
 pyflakes = [
     {file = "pyflakes-2.4.0-py2.py3-none-any.whl", hash = "sha256:3bb3a3f256f4b7968c9c788781e4ff07dce46bdf12339dcda61053375426ee2e"},
