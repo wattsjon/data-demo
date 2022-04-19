@@ -12,13 +12,12 @@
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"python.pythonPath": "/usr/local/bin/python",
-		"git.path": "/usr/bin/git"
+		"git.path": "/opt/homebrew/bin/git"
 	},
 	
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"ms-python.python",
-		"github.vscode-pull-request-github"
+		"ms-python.python"
 	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
