@@ -1,7 +1,7 @@
 FROM python:3.10.4-slim-buster
 
-RUN apk update
-RUN apk add git
+# RUN apk update
+# RUN apk add git
 
 
 WORKDIR /app
