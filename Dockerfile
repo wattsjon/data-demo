@@ -1,5 +1,9 @@
 FROM python:3.10.4-slim-buster
 
+RUN apk update
+RUN apk add git
+
+
 WORKDIR /app
 
 COPY poetry.lock pyproject.toml ./
@@ -11,3 +15,4 @@ ENV POETRY_VERSION=1.1.13 \
 RUN pip install poetry==$POETRY_VERSION
 
 RUN poetry install --no-dev
+
