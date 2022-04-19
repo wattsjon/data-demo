@@ -12,7 +12,7 @@
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"python.pythonPath": "/usr/local/bin/python",
-		"git.path": "/opt/homebrew/bin/git"
+		"git.path": "/usr/bin/git"
 	},
 	
 	// Add the IDs of extensions you want installed when the container is created.
