@@ -13,13 +13,14 @@
 	"settings": {
 		"python.pythonPath": "/usr/local/bin/python",
 		"git.path": "/usr/bin/git"
-
+		
 		
 	},
 	
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-python.python",
+		"CoenraadS.bracket-pair-colorizer-2"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
