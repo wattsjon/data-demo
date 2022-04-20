@@ -1,6 +1,7 @@
-#updated from the container
+# updated from the container
 
-#update 2
+# update 2
+
 
 def helloWorld():
     """
@@ -9,11 +10,7 @@ def helloWorld():
     :param: None
     """
 
-
-
-
     print("Hello World")  # this comment has been shortend
-
 
 
 helloWorld()
